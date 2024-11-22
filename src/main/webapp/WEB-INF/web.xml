@@ -31,4 +31,7 @@
         <filter-name>MyFilter</filter-name>
         <url-pattern>/filters/MyFilter.jsp</url-pattern>
     </filter-mapping>
+    <listener>
+        <listener-class>com.demo.listeners.ContextListener</listener-class>
+    </listener>
 </web-app>
